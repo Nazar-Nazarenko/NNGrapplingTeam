@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>NNGrapplingTeam</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><strong>NN</strong>GrapplingTeam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Назад до головного меню<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="malito:nazarjudo46@gmail.com"><i class="fa fa-envelope"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/nazargrappling/?hl=ru"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com/nazar.nazarenko.56"><i class="fab fa-facebook-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="regisMainCont">
+      <div class="regisLogo">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h2 class="regisHead centered">Щоб отримувати інформацію та стати членом клубу заповніть поле знизу</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-elements">
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label id="name-label" for="name"> Ім'я: </label>
+              </div>
+              <div class="form-element inputFor col">
+                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Введіть ім'я" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label id="name-label" for="name"> Email: </label>
+              </div>
+              <div class="form-element inputFor col">
+                <input type="email" name="email" id="email" class="input-field" placeholder="Введіть ваш еmail" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label id="name-label" for="name"> Телефон: </label>
+              </div>
+              <div class="form-element inputFor col">
+                <input type="number" name="number" id="number" class="input-field" placeholder="Введіть номер" required>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label for="currentPos">Вкажіть ваш спортивний рівень:</label>
+              </div>
+              <div class="form-element inputFor col">
+                <select id="dropdown" name="currentPos" class="dropdown">
+                    <option disabled value>Вкажіть рівень</option>
+                    <option value="novice">Новачок</option>
+                    <option value="amateur">Aматор</option>
+                    <option value="professional">Професіонал</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label for="userRating">Як хочете отримувати інформацію про нас?</label>
+              </div>
+              <div class="form-element inputFor col">
+                <ul>
+                    <li class="radio1">
+                        <label>email
+                            <input name="radio-buttons" value="1" type="radio" class="userRatings">
+                        </label>
+                    </li>
+                    <li class="radio2">
+                        <label>телефон
+                            <input name="radio-buttons" value="2" type="radio" class="userRatings">
+                        </label>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label for="preferences">Яка ціль ваших занять? </label>
+              </div>
+              <div class="form-element inputFor col">
+                <ul id="preferences">
+                    <li class="checkbox1 centered">
+                        <label>
+                            <input name="prefer" value="1" type="checkbox" class="userRatings">Самозахист</label>
+                    </li>
+                    <li class="checkbox2 centered">
+                        <input name="prefer" value="2" type="checkbox" class="userRatings">Фізична форма</li>
+                    <li class="checkbox3 centered">
+                        <label>
+                            <input name="prefer" value="3" type="checkbox" class="userRatings">Змагання</label>
+                    </li>
+                    <li class="checkbox4 centered">
+                        <label>
+                            <input name="prefer" value="4" type="checkbox" class="userRatings">Розвага</label>
+                    </li>
+                    <li class="checkbox5 centered">
+                        <label>
+                            <input name="prefer" value="5" type="checkbox" class="userRatings">Цікаво</label>
+                    </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="form-element rowTab centered">
+              <div class="form-element labelFor col">
+                <label for="comments">Ваші коментарі і побажання:</label>
+              </div>
+              <div class="form-element inputFor col">
+                <textarea id="comments" class="input-field"  name="comment" placeholder="Ваш коментар..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="centered">
+              <button id="submit" type="submit">Submit</button>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </main>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
